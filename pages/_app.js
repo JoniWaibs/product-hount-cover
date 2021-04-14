@@ -4,7 +4,7 @@ import "tailwindcss/tailwind.css";
 //css toast
 import 'react-toastify/dist/ReactToastify.css';
 //Firebase imported at /Firebase/index.js
-import instanceFirebase , { FirebaseContext } from '../Firebase'
+import instanceFirebase , { FirebaseContext } from '../Firebase/index'
 //firebase hook for serch currentUser
 import useAuth from '../Hooks/useAuth'
 

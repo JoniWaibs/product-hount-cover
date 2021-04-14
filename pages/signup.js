@@ -10,7 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 // C - la funcion que se ejecutara si la validacion fue correcta, y el submit esta OK ,la funcion esta en este componente
 
 //index of firebase ( context + class )
-import instanceFirebase from '../Firebase'
+import instanceFirebase from '../Firebase/index'
 
 const signup = () => {
 

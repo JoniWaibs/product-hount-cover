@@ -10,7 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 // C - la funcion que se ejecutara si la validacion fue correcta, y el submit esta OK ,la funcion esta en este componente
 
 //index of firebase ( context + class )
-import { FirebaseContext } from '../Firebase'
+import { FirebaseContext } from '../Firebase/index'
 import Layout from '../Components/Layout'
 import FileUploader from "react-firebase-file-uploader";
 

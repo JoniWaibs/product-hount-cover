@@ -2,7 +2,7 @@ import React, {useEffect, useState, useContext} from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Layout from '../../Components/Layout'
-import firebase ,{FirebaseContext} from '../../Firebase'
+import firebase ,{FirebaseContext} from '../../Firebase/index'
 import Error from '../../Components/UI/404'
 import Moment from 'react-moment';
 import { ToastContainer, toast } from 'react-toastify';

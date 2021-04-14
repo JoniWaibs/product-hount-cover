@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react'
 import Link from 'next/link'
-import { FirebaseContext } from '../../Firebase'
+import { FirebaseContext } from '../../Firebase/index'
 import Router from 'next/router'
 import {DebounceInput} from 'react-debounce-input';
 

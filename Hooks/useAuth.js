@@ -1,5 +1,5 @@
 import React ,{ useState, useEffect } from 'react'
-import instanceFirebase from '../Firebase'
+import instanceFirebase from '../Firebase/index'
 
 const useAuth = () => {
 

@@ -1,6 +1,6 @@
 import Layout from '../Components/Layout'
 import React,{useContext, useEffect, useState} from 'react'
-import { FirebaseContext } from '../Firebase'
+import { FirebaseContext } from '../Firebase/index'
 import Posts from '../Components/UI/Post'
 
 

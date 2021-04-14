@@ -1,6 +1,6 @@
 import Layout from '../Components/Layout'
 import React,{useContext, useEffect, useState} from 'react'
-import { FirebaseContext } from '../Firebase'
+import { FirebaseContext } from '../Firebase/index'
 import Posts from '../Components/UI/Post'
 import { useRouter } from 'next/router'
 import Error from '../Components/UI/404'
@@ -43,7 +43,7 @@ export default function Home() {
     setPosts(posts)
   }
 
-  if(Object.keys(posts).length == 0 && !isFilter) return <div className="loader">Loading...</div>
+  if(Object.keys(posts).length == 0 && !isFilter) return ''
 
   return (
     <div className="bg-gray-100 h-screen">
